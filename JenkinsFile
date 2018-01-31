@@ -1,0 +1,6 @@
+import jenkins.model.Jenkins 
+node
+{
+	stage 'Checkout'
+    git url: 'https://gitlab.com/vini91/MyNewWorkspace-CI.git'
+}
